@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title></title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -23,8 +26,7 @@
 
 </head>
 
-<body>
-    <div class="container">
+<!-- <div class="container">
         <div class="animate__animated animate__rollIn">Hello World!</div>
         <br>
         <br>
@@ -49,25 +51,100 @@
         <br>
         <br>
         <br>
-    </div>
+    </div> -->
+
+<body>
 
 
 
 
-    <div class="container">
+    <div class="container font-[Latin, Sans]">
         <!-- Navbar -->
-        <nav>
-            <div></div>
-            <div></div>
+        <nav class="nav flex justify-between h-[50px] p-2">
+            <div class="flex">
+                <img src="./icons/Icon-1.svg" alt="Icon">
+                <h3>Nexcent</h3>
+            </div>
+            <div class="flex ">
+                <ul class="flex gap-5">
+                    <li>Home</li>
+                    <li>features</li>
+                    <li>Community</li>
+                    <li>Blog</li>
+                    <li>Pricing</li>
+                </ul>
+                <div
+                    class="bg-[#4CAF4F] border-[#4CAF4F] text-white h-[40px] w-[140px] justify-self-center content-center p-2">
+                    Register Now
+                    <i class="fa-solid fa-arrow-right"></i>
+                </div>
+            </div>
         </nav>
         <!-- Hero Sction -->
-        <div></div>
-        <div></div>
+        <div class="flex bg-[#F1F5F7] mt-[50px] content-center align-center justify-between animate__animated animate__zoomInDown">
+            <div class="flex flex-col ">
+                <h1 class="text-[#4D4D4D]-500">Lesson and insights</h1>
+                <h1 class="text-[#4CAF4F]-400 ">from 8 years</h1>
+                <p>Where to grow your business as a photographer: site or social media?</p>
+                <button class="bg-[#4CAF4F] text-white w-[120px]">Register</button>
+            </div>
+            <div>
+                <img src="./images/Image-1.png" alt="image" class="h-[450px] ">
+            </div>
+        </div>
+        <div class="justify-self-center">
+            <img src="./icons/Dot.svg" alt="Dot">
+        </div>
+        <!-- Short sction -->
+        <div class="mt-[50px]">
+            <div class="justify-self-center">
+                <h1 class="justify-self-center">Our Clients</h1>
+                <p class="justify-self-center">We have been working with some Fortune 500+ clients</p>
+            </div>
+            <div class="justify-self-center">
+                <img src="./icons/Clients Logos.png" alt="Logos">
+            </div>
+            <div class="justify-self-center">
+                <h1 class="justify-self-center">Manage your entire community in a single system</h1>
+                <p class="justify-self-center">Who is Nextcent suitable for?</p>
+            </div>
+        </div>
         <!-- Card Section -->
-        <div></div>
-        <div></div>
-        <div></div>
-        <!-- Footer -->
+        <div class="flex gap-7 justify-self-center mt-[80px] ">
+            <div class="justify-self-center h-[182.1px] w-[185.85px] ml-[60px]">
+                <img src="./icons/Icon-3.svg" alt="Icon" class="justify-self-center">
+                <h3 class="text-center mt-[11px]">Membership Organisations</h3>
+                <p class="text-center mt-[3px]">Our membership management software provides full automation of
+                    membership renewals and payments</p>
+            </div>
+            <div class="justify-self-center h-[182.1px] w-[185.85px] ml-[60px]">
+                <img src="./icons/Icon-4.svg" alt="Icon" class="justify-self-center">
+                <h3 class="text-center mt-[11px]">National Associations</h3>
+                <p class="text-center mt-[3px]">Our membership management software provides full automation of
+                    membership renewals and payments</p>
+            </div>
+            <div class="justify-self-center h-[182.1px] w-[185.85px] ml-[60px]">
+                <img src="./icons/Icon-5.svg" alt="Icon" class="justify-self-center">
+                <h3 class="text-center mt-[11px]">Clubs And Groups</h3>
+                <p class="text-center mt-[3px]">Our membership management software provides full automation of
+                    membership renewals and payments</p>
+            </div>
+        </div>
+        <!-- Frame area -->
+        <div class="flex mt-[100px] justify-center">
+            <div class="">
+                <img src="./images/rafiki.png" alt="image" class="w-[1347.41px] h-[359.84px]  ">
+            </div>
+            <div>
+                <h1>The unseen of spending three years at Pixelgrade</h1>
+                <P>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet justo ipsum. Sed accumsan quam
+                    vitae est varius fringilla. Pellentesque placerat vestibulum lorem sed porta. Nullam mattis
+                    tristique iaculis. Nullam pulvinar sit amet risus pretium auctor. Etiam quis massa pulvinar, aliquam
+                    quam vitae, tempus sem. Donec elementum pulvinar odio.
+                </P>
+                <span class="bg-[#4CAF4F] text-white w-[44px] h-[30px] text-center align-middle ">Learn More</span>
+            </div>
+        </div>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
